@@ -1,0 +1,68 @@
+[
+    {
+        "version": "25.7.9",
+        "date": "2025-08-02",
+        "title": "Cylex Phone",
+        "changes": [
+            {
+                "category": "Fixed",
+                "items": [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                ]
+            }
+        ]
+    },
+    {
+        "version": "25.7.8",
+        "date": "2025-07-27",
+        "title": "Cylex Phone",
+        "changes": [
+            {
+                "category": "Fixed",
+                "items": [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                ]
+            }
+        ]
+    },
+    {
+        "version": "25.7.7",
+        "date": "2025-07-23",
+        "title": "Cylex Phone",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                ]
+            }
+        ]
+    },
+    {
+        "version": "25.7.6",
+        "date": "2025-07-16",
+        "title": "Cylex Phone",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                ]
+            }
+        ]
+    }
+]

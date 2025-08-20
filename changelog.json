@@ -1,78 +1,247 @@
 [
     {
-        "version": "25.7.9",
-        "date": "2025-08-02",
-        "title": "Cylex Phone",
-        "changes": [
-            {
-                "category": "Fixed",
-                "items": [
-                    "<code>Lorem ipsum dolor sit amet, consectetur adipiscing elit</code>",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-                ]
-            }
-        ],
-        "images": [
-            "https://r2.fivemanage.com/GZYFXX2Ywet53AbrSCzQ6/tatlsm.png",
-            "https://r2.fivemanage.com/QMWEcCOWIHC6PbNF9K8KM/218_116.jpg",
-            "https://i.postimg.cc/T1cpT7Ns/SDFDSFGFDSGDFH.png"
-        ]
-    },
-    {
-        "version": "25.7.8",
-        "date": "2025-07-27",
-        "title": "Cylex Phone",
-        "changes": [
-            {
-                "category": "Fixed",
-                "items": [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-                ]
-            }
-        ]
-    },
-    {
-        "version": "25.7.7",
-        "date": "2025-07-23",
+        "version": "1.02",
+        "date": "2025-07-31",
         "title": "Cylex Phone",
         "changes": [
             {
                 "category": "New Features",
                 "items": [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    "The colors of the music app have been changed.",
+                    "Now, people with the same job in companies can send messages outside of working hours. They cannot see their own messages when they are on duty."
                 ]
             },
             {
                 "category": "Fixed",
                 "items": [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    "When a new post arrived while on your Twitter profile, the posts were visible. This has been fixed.",
+                    "When a post was open on Twitter, exiting/entering the application resulted in a blank screen. This has been fixed.",
+                    "When switching to the lock screen while listening to music, the Dynamic Island would freeze, but this has been fixed.",
+                    "The issue where yellow pages were not visible for some users has been fixed.",
+                    "When clicking on your own profile on Twitter, past tweets were not visible, this has been fixed.",
+                    "In “Take Photo” mode, it was not possible to switch to the rear camera, this has been fixed.",
+                    "In “Take Photo” mode, the camera could not be moved, this has been fixed.",
+                    "Single messages could not be deleted in Darkchat, this has been fixed.",
+                    "In the Business app, not all jobs were visible when assigning jobs; this has been fixed.",
+                    "On Twitter, clicking on a notification in the in-app notification tab did not open the post; this has been fixed.",
+                    "When the white button (back button) was pressed on the phone, the phone would shut down instead of exiting the app; this has been fixed."
+                ]
+            },
+             {
+                "category": "Changed Files",
+                "items": [
+                    "client",
+                    "server (without data folder)",
+                    "locales",
+                    "html",
+                    "fxmanifest.lua"
                 ]
             }
         ]
     },
     {
-        "version": "25.7.6",
+        "version": "1.01",
+        "date": "2025-07-24",
+        "title": "Cylex Phone",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                    "The ALT key used to move the character while using the phone and camera can now be changed in settings.",
+                    "A small transaction history has been added to the calculator."
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                    "Notifications were coming even though the app was not installed, this has been fixed.",
+                    "Bluetooth server no longer closes when restarted.",
+                    "Posts were not loading when clicked on from the Twitter profile, this has been fixed.",
+                    "Airplane mode, Wi-Fi, Bluetooth, and other information appeared to be turned off when exiting/entering the game, this has been fixed.",
+                    "If the photo in the address book was broken, it appeared blank; this has been fixed.",
+                    "In Airdrop, you can now see whether the other party has accepted or rejected what you sent.",
+                    "In Airdrop, you can no longer send requests to the same person repeatedly."
+                ]
+            },
+             {
+                "category": "Changed Files",
+                "items": [
+                    "client",
+                    "server (without data folder)",
+                    "locales",
+                    "html",
+                    "editable/cl_functions.lua",
+                    "fxmanifest.lua"
+                ]
+            }
+        ]
+    },
+    {
+        "version": "1.004",
+        "date": "2025-07-19",
+        "title": "Cylex Phone",
+        "changes": [
+            {
+                "category": "Optimize",
+                "items": [
+                    "General RAM and performance improvements have been made.",
+                    "All Twitter has been optimized.",
+                    "Now, when Twitter opens, there will be no freezing, and it will open much faster."
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                    "Now, when you can't find a photo in the music app, it shows a more accurate photo.",
+                    "Frogly discoveries were not sorted by date, this has been fixed.",
+                    "When driving, you could move the car by opening the camera and pressing the bottom button; this has been fixed.", 
+                    "When using the rear camera, you couldn't see yourself in the mirrors; this has been fixed."
+                ]
+            },
+             {
+                "category": "Changed Files",
+                "items": [
+                    "client",
+                    "server (without data folder)",
+                    "locales",
+                    "html",
+                    "fxmanifest.lua"
+                ]
+            }
+        ]
+    },
+    {
+        "version": "1.003",
         "date": "2025-07-16",
         "title": "Cylex Phone",
         "changes": [
             {
+                "category": "Optimize",
+                "items": [
+                    "Logging in/out of app accounts has been sped up."
+                ]
+            },
+             {
                 "category": "New Features",
                 "items": [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    "Zoom in/out has been added to the front camera.",
+                    "The camera has been updated.",
+                    "Discord links can no longer be added to the gallery and general photos.",
+                    "When in selfie mode, pressing the bottom button now allows you to move the camera up and down with the mouse and rotate the character with the left and right mouse buttons."
                 ]
             },
             {
                 "category": "Fixed",
                 "items": [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    "The issue of exiting the app while tapping cards in Unoda has been resolved.",
+                    "The issue of names not appearing on invoices has been fixed.",
+                    "The issue of character data being corrupted when logging out has been fixed.",
+                    "The issue of not being able to see the button in the news app has been fixed.",
+                    "The issue of being able to click on pd without pd in the invoices app has been fixed.",
+                    "The issue of not being able to capture the job when the phone is first turned on has been fixed.",
+                    "The issue where you couldn't see yourself in mirrors while using the rear camera has been fixed."
+                ]
+            },
+             {
+                "category": "Changed Files",
+                "items": [
+                    "client",
+                    "server (without data folder)",
+                    "locales",
+                    "html",
+                    "editable/sv_config.lua"
+                ]
+            }
+        ]
+    },
+    {
+        "version": "1.002",
+        "date": "2025-07-11",
+        "title": "Cylex Phone",
+        "changes": [
+            {
+                "category": "Optimize",
+                "items": [
+                    "The backend of messages has been optimized."
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                    "When calling from a private number, an automatic message was sent if the person was not in the game; this has been fixed.",
+                    "When logging out of an account in the app and creating a new account, messages from the old account remained; this has been fixed.",
+                    "Long names were scrolling down in the businesses section of the businesses app, fixed.",
+                    "In the businesses app, if no one is on duty in the professions, it doesn't show up in green.",
+                    "When sending a new message, if the list was too long, you couldn't scroll down, fixed.",
+                    "After adding a video in messages, it couldn't be removed from the preview, fixed."
+                ]
+            },
+            {
+                "category": "Notes",
+                "items": [
+                    "After uploading the update files, create a folder named “messages” in the server/data/messages directory, then restart."
+                ]
+            }
+        ]
+    },
+    {
+        "version": "1.001",
+        "date": "2025-07-05",
+        "title": "Cylex Phone",
+        "changes": [
+            {
+                "category": "Optimize",
+                "items": [
+                    "Notification counts on the home page have been optimized.",
+                    "Airdrop performance has been improved."
+                ]
+            },
+            {
+                "category": "New Features",
+                "items": [
+                    "A swipe animation for unlocking and locking has been added to the lock screen.",
+                    "The date on the lock screen has been adjusted; the time and date now match the background photo's color.",
+                    "You can now set separate wallpapers for the home screen and lock screen. (Previously used backgrounds have been reset.)"
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                    "Posts purchased on Frogly were not updating instantly, this has been fixed.",
+                    "Messages app notification count was not showing on first login to the game, this has been fixed.",
+                    "The app movement on the main page has been optimized; apps can now be moved from page 1 to page 2 and are more stable.",
+                    "You can now add wallpapers either from pre-made background photos, your gallery, or by taking a photo on the spot or using a URL.",
+                    "The error in the Frogly notification tab has been fixed."
+                ]
+            }
+        ]
+    },                
+    {
+        "version": "1.00",
+        "date": "2025-07-04",
+        "title": "Cylex Phone",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                    "Like animation added to Frogram.",
+                    "Speaker reactivated during calls. (beta)",
+                    "A search bar has been added to the Messages app.",
+                    "Now, ambient sounds are recorded to video while recording video.",
+                    "The Control Center has been updated, and you can now mute notifications from here as well.",
+                    "A feature to call with a hidden number has been added. You can make a hidden call by adding # before the number you want to call in the keypad section."
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                    "Fixed issue where posts did not appear when scrolling down in Frogly.",
+                    "Fixed issue where audio was recorded to video even without pressing the microphone button while recording video.",
+                    "Frogly's light mode has been fixed.",
+                    "The number of likes on Frogly profiles was being calculated incorrectly; this has been fixed.",
+                    "When the phone is on silent mode, a notification now appears next to the clock.",
+                    "The notification location was sometimes glitching; this has been fixed.",
+                    "When deleting a message in the Messages app while there were unread messages, the number of unread messages remained. This has been fixed."
                 ]
             }
         ]

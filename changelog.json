@@ -71,8 +71,8 @@
                     "When switching to the lock screen while listening to music, the Dynamic Island would freeze, but this has been fixed.",
                     "The issue where yellow pages were not visible for some users has been fixed.",
                     "When clicking on your own profile on Twitter, past tweets were not visible, this has been fixed.",
-                    "In "Take Photo" mode, it was not possible to switch to the rear camera, this has been fixed.",
-                    "In "Take Photo" mode, the camera could not be moved, this has been fixed.",
+                    "In 'Take Photo' mode, it was not possible to switch to the rear camera, this has been fixed.",
+                    "In 'Take Photo' mode, the camera could not be moved, this has been fixed.",
                     "Single messages could not be deleted in Darkchat, this has been fixed.",
                     "In the Business app, not all jobs were visible when assigning jobs; this has been fixed.",
                     "On Twitter, clicking on a notification in the in-app notification tab did not open the post; this has been fixed.",
@@ -231,7 +231,7 @@
             {
                 "category": "Notes",
                 "items": [
-                    "After uploading the update files, create a folder named "messages" in the server/data/messages directory, then restart."
+                    "After uploading the update files, create a folder named 'messages' in the server/data/messages directory, then restart."
                 ]
             }
         ]

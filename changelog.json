@@ -1,5 +1,57 @@
 [
     {
+        "version": "1.04",
+        "date": "2025-09-05",
+        "title": "Cylex Phone",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                    "Clock app has been added.",
+                    "When the alarm goes off, you can snooze or stop it. People around you in the game can hear the alarm sound.",
+                    "The phone appears in the bottom right corner 5 minutes before the alarm or timer goes off.",
+                    "You can now change the color of the phone's frame in the settings. You can also choose Custom and set the color you want.",
+                    "op-garages support has been added."
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                    "The coin icons in the banking app have been fixed.",
+                    "When someone called you while you were on a call, the automatic ‘I called you but couldn't reach you’ message wasn't being sent; this has been fixed.",
+                    "When creating a group in the Messages app, adding the same people would redirect you to someone else's group; this has been fixed.",
+                    "Server-side sendMail export has been added, sendMail event has been removed.",
+                    "When everyone's billing settings were disabled in Config, professions couldn't bill. This has been fixed.",
+                    "The GiveVehicleKey function has been added to Config so it can give keys to the valet.",
+                    "You can now see whether the other user has accepted what you sent via airdrop.",
+                    "The issue of being able to send to the same person repeatedly via airdrop has been fixed.",
+                    "When sending someone via airdrop, if their photo was broken, it looked distorted; this has been fixed.",
+                    "There are now 2 photos per row in the program discovery, not 3.",
+                    "Videos in the program discovery were opening slowly and causing the phone to lag; this has been fixed.",
+                    "The esx:onPlayerSpawn event has been added for the phone to load when entering the esx game.",
+                    "Batch save has also been implemented for Appaccounts. (It doesn't save repeatedly; it saves every 10 seconds).",
+                    "Job and shift queries in the Company app weren't working in esx; this has been fixed."
+                ]
+            },
+             {
+                "category": "Changed Files",
+                "items": [
+                    "client",
+                    "server (without data folder)",
+                    "locales",
+                    "html",
+                    "core",
+                    "editable",
+                    "fxmanifest.lua"
+                ]
+            }
+        ],
+        "images": [
+            "https://r2.fivemanage.com/sAW1hGdsvM6TqiMMzw2Vt/resim_2025-09-05_200334644.png",
+            "https://r2.fivemanage.com/sAW1hGdsvM6TqiMMzw2Vt/resim_2025-09-05_200416623.png"
+        ]
+    },
+    {
         "version": "1.02",
         "date": "2025-07-31",
         "title": "Cylex Phone",
@@ -19,8 +71,8 @@
                     "When switching to the lock screen while listening to music, the Dynamic Island would freeze, but this has been fixed.",
                     "The issue where yellow pages were not visible for some users has been fixed.",
                     "When clicking on your own profile on Twitter, past tweets were not visible, this has been fixed.",
-                    "In “Take Photo” mode, it was not possible to switch to the rear camera, this has been fixed.",
-                    "In “Take Photo” mode, the camera could not be moved, this has been fixed.",
+                    "In "Take Photo" mode, it was not possible to switch to the rear camera, this has been fixed.",
+                    "In "Take Photo" mode, the camera could not be moved, this has been fixed.",
                     "Single messages could not be deleted in Darkchat, this has been fixed.",
                     "In the Business app, not all jobs were visible when assigning jobs; this has been fixed.",
                     "On Twitter, clicking on a notification in the in-app notification tab did not open the post; this has been fixed.",
@@ -179,7 +231,7 @@
             {
                 "category": "Notes",
                 "items": [
-                    "After uploading the update files, create a folder named “messages” in the server/data/messages directory, then restart."
+                    "After uploading the update files, create a folder named "messages" in the server/data/messages directory, then restart."
                 ]
             }
         ]

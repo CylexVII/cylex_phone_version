@@ -30,7 +30,9 @@
                     "Videos in the program discovery were opening slowly and causing the phone to lag; this has been fixed.",
                     "The esx:onPlayerSpawn event has been added for the phone to load when entering the esx game.",
                     "Batch save has also been implemented for Appaccounts. (It doesn't save repeatedly; it saves every 10 seconds).",
-                    "Job and shift queries in the Company app weren't working in esx; this has been fixed."
+                    "Job and shift queries in the Company app weren't working in esx; this has been fixed.",
+                    "Frogram was showing 2 stories when a story was shared, fixed.",
+                    "Fixed apps not showing up when the phone restarted or when some players entered the game."
                 ]
             },
              {

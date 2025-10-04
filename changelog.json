@@ -32,7 +32,7 @@
                     "client",
                     "server (without data folder)",
                     "locales",
-                    "html",
+                    "html (remove old html file and put new)",
                     "editable",
                     "fxmanifest.lua"
                 ]

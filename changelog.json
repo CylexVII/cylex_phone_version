@@ -1,5 +1,45 @@
 [
     {
+        "version": "1.05",
+        "date": "2025-10-03",
+        "title": "Cylex Phone",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                    "Significant performance improvements have been made.",
+                    "Page transition animations on the main screen are now smoother.",
+                    "Unwatched stories now appear in rainbow colors in the program. (If you've watched them, they appear gray.)",
+                    "Alarms and timers now work on a character basis.",
+                    "Recent calls are now automatically deleted after 14 days."
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                    "When sharing posts in Frogram, 4:3 photos could not be shared; this has been fixed.",
+                    "Issues with 2k resolution in Frogram stories have been fixed.",
+                    "The issue of photos appearing in pairs and old photos appearing at the top when sharing posts in Frogram has been fixed.",
+                    "The white space visible in the frame on black interfaces has been fixed.",
+                    "The thickness of the black frame around the phone has been reduced.",
+                    "Fixed an issue where stories posted in the program appeared broken if there was no photo.",
+                    "Unwatched stories now appear in rainbow colors in the program. (If you've watched them, they appear gray.)"
+                ]
+            },
+             {
+                "category": "Changed Files",
+                "items": [
+                    "client",
+                    "server (without data folder)",
+                    "locales",
+                    "html",
+                    "editable",
+                    "fxmanifest.lua"
+                ]
+            }
+        ]
+    },
+    {
         "version": "1.04",
         "date": "2025-09-05",
         "title": "Cylex Phone",

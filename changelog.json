@@ -1,5 +1,44 @@
 [
     {
+        "version": "1.052",
+        "date": "2025-11-18",
+        "title": "Cylex Phone",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                    "The notes app is now more detailed",
+                    "2 new games have been added."
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                    "The music app no longer works with state bag, and the timeout issue experienced by 250+ players has been fixed.",
+                    "At 2k and higher resolutions, indicators such as Wi-Fi and battery were distorted, as was the phone's frame; this has been fixed.",
+                    "Phone props left in the air are now automatically deleted. (e.g., when you exit the game while holding your phone)",
+                    "The getBills export has been adjusted; if the second parameter is true, it only displays unpaid invoices.",
+                    "When users of jg-advancedgarages mark a vehicle, it now displays a warning if the vehicle is not in the game.",
+                    "Music app and Metube app searches now work as clients ",
+                    "The issue preventing the use of GIFs in Frogger comments has been resolved.",
+                    "The bills section has been removed from the banking app.",
+                    "The SetVehicleFUEL function has been added to cl_functions.lua (you can now add your own fuel script export)",
+                ]
+            },
+             {
+                "category": "Changed Files",
+                "items": [
+                    "client",
+                    "server (without data folder)",
+                    "locales",
+                    "html (remove old html file and put new)",
+                    "editable",
+                    "fxmanifest.lua"
+                ]
+            }
+        ]
+    },
+    {
         "version": "1.05",
         "date": "2025-10-03",
         "title": "Cylex Phone",

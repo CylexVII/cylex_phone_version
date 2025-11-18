@@ -22,7 +22,7 @@
                     "Music app and Metube app searches now work as clients ",
                     "The issue preventing the use of GIFs in Frogger comments has been resolved.",
                     "The bills section has been removed from the banking app.",
-                    "The SetVehicleFUEL function has been added to cl_functions.lua (you can now add your own fuel script export)",
+                    "The SetVehicleFUEL function has been added to cl_functions.lua (you can now add your own fuel script export)"
                 ]
             },
              {

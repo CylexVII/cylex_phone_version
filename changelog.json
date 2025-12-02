@@ -1,5 +1,33 @@
 [
     {
+        "version": "1.06",
+        "date": "2025-12-02",
+        "title": "MAJOR UPDATE 1.06",
+        "changes": [
+            {
+                "category": "Fixed",
+                "items": [
+                    "Casino plinko ui bug is fixed, now it works properly.",
+                    "Fixed an issue where the phone would not load correctly for some users.",
+                    "Fixed an issue where the phone would sometimes not open/close properly.",
+                    "Fixed an issue where the phone props would not appear correctly for some users.",
+                    "Fixed various minor bugs and improved overall stability."
+                ]
+            },
+             {
+                "category": "Changed Files",
+                "items": [
+                    "client",
+                    "server (remove all old server files and put new ones)",
+                    "locales",
+                    "html (remove old html file and put new)",
+                    "editable (there is a new auth.lua file, get auth key from discord.gg/cylexstore)",
+                    "fxmanifest.lua"
+                ]
+            }
+        ]
+    },
+    {
         "version": "1.052",
         "date": "2025-11-18",
         "title": "Cylex Phone",

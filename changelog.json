@@ -1,27 +1,39 @@
 [
     {
-        "version": "1.06",
-        "date": "2025-12-02",
-        "title": "MAJOR UPDATE 1.06",
+        "version": "1.07",
+        "date": "2025-12-09",
+        "title": "MAJOR UPDATE 1.07",
         "changes": [
             {
                 "category": "Fixed",
                 "items": [
-                    "Casino plinko ui bug is fixed, now it works properly.",
-                    "Fixed an issue where the phone would not load correctly for some users.",
-                    "Fixed an issue where the phone would sometimes not open/close properly.",
-                    "Fixed an issue where the phone props would not appear correctly for some users.",
-                    "Fixed various minor bugs and improved overall stability."
+                    "The timer section in the Clock app was broken (showing NaN), fixed.",
+                    "In the Company app, when exiting/entering the app while in the Transactions section, people were not visible, fixed.",
+                    "Some people's occupation data was coming in as 0, it will now default to unemployed.",
+                    "The issue of not being able to send messages in the Company app even though they were on duty has been fixed.",
+                    "The issue of employees not appearing in the Company app has been fixed.",
+                    "Now, if you are not the boss in the company, you cannot see the deposit/withdraw buttons.",
+                    "You couldn't send money to someone who wasn't in the game in the Messages app, this has been fixed.",
+                    "Several optimizations were made to fix the UI crash in the Music app.",
+                    "The mine app in the casino was not working; this has been fixed.",
+                    "In the mine app, the money won was displayed incorrectly in the UI at high mine counts; this has been fixed.",
+                    "The unfair profit issue in the dice app in the casino has been fixed.",
+                    "The issue where vehicle names were not visible in the garage app has been fixed.",
+                    "tgiann-inventory support has been added.",
+                    "An Auth with cloud sync system has been added. Please delete all clients and servers (except the data folder) and place the files from the update.",
+                    "GarageData has been added to Config for situations where a vehicle cannot be removed with the valet if there is an invoice."
                 ]
             },
              {
                 "category": "Changed Files",
                 "items": [
-                    "client",
+                    "client  (remove all old client files and put new ones)",
                     "server (remove all old server files and put new ones)",
+                    "core (remove folder)",
+                    "sound (remove folder)",
                     "locales",
                     "html (remove old html file and put new)",
-                    "editable (there is a new auth.lua file, get auth key from discord.gg/cylexstore)",
+                    "editable",
                     "fxmanifest.lua"
                 ]
             }

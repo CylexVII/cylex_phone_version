@@ -1,5 +1,41 @@
 [
     {
+        "version": "1.071",
+        "date": "2025-12-14",
+        "title": "HOT FIXES 1.07",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                    "A search feature has been added to the Company app. The grade levels specified in the config can enable receiving calls (a maximum of 1 player can be enabled per job; this resets upon each restart or log in/out). The person who enables the call receives it directly when the job is searched for."
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                    "The server side of Frogger messages, Frogly messages, and Frogram messages has been optimized.",
+                    "The server side of the audio system has been optimized.",
+                    "Some people's job data was coming in as 0, it will now default to unemployed.",
+                    "In the music app, new music couldn't be opened while music was playing; this has been fixed.",
+                    "The issue of employees not appearing in the Company app has been fixed.",
+                    "The pet image displayed on Dynamic Island has been fixed.",
+                    "The issue of not being able to see the contact and messages in some cases has been fixed..",
+                    "tgiann-hotwire support has been added for garage app.",
+                    "The issue of messages not being sent in darkchat has been fixed."
+                ]
+            },
+            {
+                "category": "Changed Files",
+                "items": [
+                    "locales",
+                    "html (remove old html file and put new)",
+                    "editable",
+                    "fxmanifest.lua"
+                ]
+            }
+        ]
+    },
+    {
         "version": "1.07",
         "date": "2025-12-09",
         "title": "MAJOR UPDATE 1.07",

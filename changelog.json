@@ -1,5 +1,51 @@
 [
     {
+        "version": "1.08",
+        "date": "2025-12-18",
+        "title": "HOT FIXES 1.08",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                    "The Swiper (Tinder) app has been added. You have 10 swipes per day; you can purchase **Swiper Gold** for unlimited swipes.",
+                    "A language change option has been added to Settings.",
+                    "A “About Phone” section has been added to Settings.",
+                    "A member limit has been added to Darkchat.",
+                    "You can now change the font, color, and blend effect of the clock on the lock screen."
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                    "Pressing the flashlight on the lock screen used to take you to the home screen; this has been fixed.",
+                    "Your home screen and lock screen wallpapers will no longer appear on your other characters.",
+                    "Expired yellow pages, news, recent calls, and mails are now being deleted.",
+                    "App notifications older than 1 month are now deleted.",
+                    "The lag issue in messages in the Hacker app has been fixed; old messages now load when scrolled up.",
+                    "In some cases, when saving 1 note, 2 were saved; this has been fixed.",
+                    "Notes were rarely not visible in the Notes app; this has been fixed.",
+                    "The server side of the sound system has been optimized.",
+                    "The changed page on the home screen will no longer reset when entering apps.",
+                    "In the Messages app, it was not possible to send money to someone who was not in the game, this has been fixed."
+                ]
+            },
+            {
+                "category": "Changed Files",
+                "items": [
+                    "locales",
+                    "html (remove old html file and put new)",
+                    "editable",
+                    "fxmanifest.lua"
+                ]
+            }
+        ],
+         "images": [
+            "https://r2.fivemanage.com/BoXMcXSK4XFfESMqRhg5F/grsel_2025-12-18_221004273.png",
+            "https://r2.fivemanage.com/BoXMcXSK4XFfESMqRhg5F/grsel_2025-12-18_221039883.png",
+            "https://r2.fivemanage.com/BoXMcXSK4XFfESMqRhg5F/grsel_2025-12-18_221100163.png"
+        ]
+    },
+    {
         "version": "1.071",
         "date": "2025-12-14",
         "title": "HOT FIXES 1.071",
@@ -7,7 +53,7 @@
             {
                 "category": "New Features",
                 "items": [
-                    "A search feature has been added to the Company app. The grade levels specified in the config can enable receiving calls (a maximum of 1 player can be enabled per job; this resets upon each restart or log in/out). The person who enables the call receives it directly when the job is searched for."
+                    "A call feature has been added to the Company app. The grade levels specified in the config can enable receiving calls (a maximum of 1 player can be enabled per job; this resets upon each restart or log in/out). The person who enables the call receives it directly when the job is searched for."
                 ]
             },
             {

@@ -35,6 +35,7 @@
                     "locales",
                     "html (remove old html file and put new)",
                     "editable",
+                    "server/data (create folder named swiper')",
                     "fxmanifest.lua"
                 ]
             }

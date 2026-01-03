@@ -1,5 +1,54 @@
 [
     {
+        "version": "1.09",
+        "date": "2026-01-03",
+        "title": "MAJOR UPDATE 1.09",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                    "The assistant app is active again. You can also make it draw pictures by typing “draw a cat” or chat with it. (Don't expect high-quality results.)",
+                    "Invoices app has been redesigned.",
+                    "Garage app has been redesigned.",
+                    "App Store app has been redesigned.",
+                    "Messages > Profile has been updated.",
+                    "Light (default), dark, and tinted (you can choose the color yourself) modes have now been added for all app icons. To edit, right-click on any app on the home screen and press the “Edit” button in the upper left corner.",
+                    "The ability to comment on comments has been added to Frogger.",
+                    "A retweet feature has been added to Frogger. You can add your own message and photo when retweeting posts.",
+                    "App moving on the home screen has been improved; apps can now be placed in empty slots (they don't have to be next to each other)."
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                    "You can now charge a fee for calling a vehicle with the valet service.",
+                    "When entering the app, notifications on the lock screen were not being cleared; this has been fixed.",
+                    "Now when you delete the app, it automatically logs you out of your account.",
+                    "Apps couldn't be moved to other pages on the home screen; this has been fixed.",
+                    "After opening Music, the dynamic island appeared black, and the volume and bass adjustment bars in the Music app were broken; this has been fixed.",
+                    "When performing operations on PlayerData, the RAM usage spiked; this has been fixed.",
+                    "The character name of a person who left Darkchat was visible to other group members; this has been fixed.",
+                    "In the Yellow Pages app, you couldn't view both photos in listings with two photos. This has been fixed."
+                ]
+            },
+            {
+                "category": "Changed Files",
+                "items": [
+                    "locales",
+                    "html (remove old html file and put new)",
+                    "editable",
+                    "editable/cl_config.lua (replace Config.apps)",
+                    "fxmanifest.lua"
+                ]
+            }
+        ],
+         "images": [
+            "https://i.imgur.com/Cqb54nP.png",
+            "https://i.imgur.com/YSw30gB.png",
+            "https://i.imgur.com/zrvwLha.png"
+        ]
+    },
+    {
         "version": "1.08",
         "date": "2025-12-18",
         "title": "HOT FIXES 1.08",

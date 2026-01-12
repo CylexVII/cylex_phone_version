@@ -1,4 +1,47 @@
 [
+     {
+        "version": "1.093",
+        "date": "2026-01-12",
+        "title": "MAJOR UPDATE 1.093",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                    "Company app redesigned.",
+                    "Bank app redesigned.",
+                    "JavaScript files have been optimized.",
+                    "The Company section now displays the employee's rank and whether they are on duty in detail.",
+                    "Now you can quickly send money to people in your contacts when sending money from the bank.",
+                    "When adding a new user in message group, you used to have to enter the number manually. Now you can easily select from your contacts or enter it manually.",
+                    "The lock screen has been adapted to light mode.",
+                    "The design of notifications has been updated."
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                   "In Company app, when depositing or withdrawing money from the cash register/firing someone/changing rank, it was not updating instantly; this has been fixed.",
+                    "The text translations in the Company application have been corrected.",
+                    "The name and photo of the person newly added to the group were not visible in the messages; this has been fixed.",
+                    "When the driver played a song in the music app, passengers in other seats couldn't hear it in some cases; this has been fixed.",
+                    "The icon was not visible in call notifications; this has been fixed.",
+                    "When app names were long, the apps on the home screen would shift to the left or right; this has been fixed.",
+                    "The fuel leakage in vehicles called by the valet has been fixed.",
+                    "Bank transaction older than one month are now automatically deleted."
+                ]
+            },
+            {
+                "category": "Changed Files",
+                "items": [
+                    "locales",
+                    "html (remove old html file and put new)",
+                    "editable/cl_config.lua",
+                    "editable/sv_config.lua",
+                    "fxmanifest.lua"
+                ]
+            }
+        ]
+    },
     {
         "version": "1.09",
         "date": "2026-01-03",

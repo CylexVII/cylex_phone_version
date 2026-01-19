@@ -1,5 +1,32 @@
 [
      {
+        "version": "1.095",
+        "date": "2026-01-20",
+        "title": "UPDATE 1.095",
+        "changes": [
+            {
+                "category": "Fixed",
+                "items": [
+                    "The issue with notes has been fixed.",
+                    "YouTube and music searches will now be much less prone to spam (the issue where nothing appeared when searching has been fixed).",
+                    "Issues such as data loading slowly and processes running with delays when entering applications have been fixed.",
+                    "General optimization has been performed.",
+                    "The issue causing the notifications page to appear blank on Frogger has been fixed.",  
+                    "When you retweeted old posts on Frogger, they appeared incorrectly on your profile. This has been fixed."
+                ]
+            },
+            {
+                "category": "Changed Files",
+                "items": [
+                    "locales",
+                    "html (remove old html file and put new)",
+                    "editable",
+                    "fxmanifest.lua"
+                ]
+            }
+        ]
+     },
+     {
         "version": "1.093",
         "date": "2026-01-12",
         "title": "MAJOR UPDATE 1.093",

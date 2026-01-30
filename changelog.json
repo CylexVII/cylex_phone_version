@@ -1,5 +1,62 @@
 [
      {
+        "version": "1.1",
+        "date": "2026-01-30",
+        "title": "UPDATE 1.1",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                    "Music app has been redesigned.",
+                    "You can now see popular songs on the home screen and play them quickly.",
+                    "Music search page design has been updated.",
+                    "Playlist page has been redesigned.",
+                    "Song editing and volume adjustment design has been updated.",
+                    "Messages now look more aesthetically pleasing when only photos are sent.",
+                    "The gallery app was redesigned from scratch.",
+                    "You can now add your photos to favorites, create albums, and add photos to your albums.",
+                    "You can also view your featured photos and videos separately on the featured page.",
+                    "The design for sending/receiving money in messages has been adjusted."
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                    "The issue of the volume being unnecessarily loud in music has been fixed.",
+                    "Music slider used to change the duration has been made more stable.",
+                    "The person opening the music couldn't lower the volume; this has been fixed.",
+                    "Changes made in the equalizer without saving weren't working correctly; this has been fixed.",
+                    "The design for adding and editing people has been slightly updated.",
+                    "When searching for someone not in the game while in the Messages app, their photo and name would glitch; this has been fixed.",
+                    "Emojis were opening in the wrong place in program comments; this has been fixed.",
+                    "The issue of GIFs not loading on the GIF page has been fixed.",
+                    "When you retweeted old posts on Frogger, they appeared incorrectly on your profile. This has been fixed.",
+                    "Minor adjustments were made to Swiper messages.",
+                    "App accounts are now sent without a password on the server side to the client.",
+                    "Airdrop design has been slightly adjusted.",
+                    "Last photo in the camera app was displaying incorrectly; this has been fixed."
+
+                ]
+            },
+            {
+                "category": "Changed Files",
+                "items": [
+                    "locales",
+                    "html (remove old html file and put new)",
+                    "editable",
+                    "fxmanifest.lua"
+                ]
+            }
+        ],
+        "images": [
+            "https://i.imgur.com/6qkT0xV.png",
+            "https://i.imgur.com/24wtmk0.png",
+            "https://i.imgur.com/RReMLc5.png",
+            "https://i.imgur.com/6Na5qn5.png",
+            "https://i.imgur.com/OHwjTsW.png"
+        ]
+     },
+     {
         "version": "1.095",
         "date": "2026-01-20",
         "title": "UPDATE 1.095",

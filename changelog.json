@@ -8,12 +8,14 @@
                 "category": "New Features",
                 "items": [
                     "The phone prop has been updated and is now more modern.",
-                    "All wallpapers have been changed."
+                    "All wallpapers have been changed.",
+                     "Settings redesigned"
                 ]
             },
             {
                 "category": "Fixed",
                 "items": [
+                    
                     "App launch animations and page transition animations have been improved.",
                     "Fixed an issue where frogly comments weren't being read in Light mode.",
                     "Added standalone to Inventory for those who want to use their phone without item queries.",

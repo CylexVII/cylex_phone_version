@@ -15,7 +15,7 @@
             {
                 "category": "Fixed",
                 "items": [
-                    
+                    "Swiper data issue is fixed",
                     "App launch animations and page transition animations have been improved.",
                     "Fixed an issue where frogly comments weren't being read in Light mode.",
                     "Added standalone to Inventory for those who want to use their phone without item queries.",

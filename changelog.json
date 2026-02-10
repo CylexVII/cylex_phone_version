@@ -1,5 +1,52 @@
 [
      {
+        "version": "1.11",
+        "date": "2026-02-10",
+        "title": "UPDATE 1.11",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                    "The phone prop has been updated and is now more modern.",
+                    "All wallpapers have been changed."
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                    "App launch animations and page transition animations have been improved.",
+                    "Fixed an issue where frogly comments weren't being read in Light mode.",
+                    "Added standalone to Inventory for those who want to use their phone without item queries.",
+                    "Person sharing and photo sharing have been moved to Dynamic Island.",
+                    "When sending messages with photos in the Messages app, they now appear separately.",
+                    "Made a few minor tweaks to the Messages app.",
+                    "The phrase “No notifications” has been added to the notification page for frogram, frogger, and frogly.",
+                    "Visual improvements have been made to the Music app.",
+                    "Playlists could not be created in the library section of the Music app; this has been fixed.",
+                    "The Music app's home page now runs faster.",
+                    "The Gallery app has been optimized on the server side.",
+                    "Tweets older than 3 months are now automatically deleted.",
+                    "A small animation has been added to Frogger page transitions.",
+                    "A “resume where you left off” feature has been added to the home pages of Frogger, Frogram, and Frogly. Now, when you enter a post or profile and then exit, you resume from where you were scrolling.",
+                    "The Guide section has been slightly reorganized.",
+                    "The Recents section has been slightly reorganized.",
+                    "The issue where the phone didn't load for some players after entering the server has been fixed."
+                ]
+            },
+            {
+                "category": "Changed Files",
+                "items": [
+                    "assets_sounds",
+                    "locales",
+                    "html (remove old html file and put new)",
+                    "cl_config.lua",
+                    "editable",
+                    "fxmanifest.lua"
+                ]
+            }
+        ]
+     },
+     {
         "version": "1.1",
         "date": "2026-01-30",
         "title": "UPDATE 1.1",

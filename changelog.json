@@ -84,14 +84,14 @@
                     "Person sharing and photo sharing have been moved to Dynamic Island.",
                     "When sending messages with photos in the Messages app, they now appear separately.",
                     "Made a few minor tweaks to the Messages app.",
-                    "The phrase “No notifications” has been added to the notification page for frogram, frogger, and frogly.",
+                    "The phrase 'No notifications' has been added to the notification page for frogram, frogger, and frogly.",
                     "Visual improvements have been made to the Music app.",
                     "Playlists could not be created in the library section of the Music app; this has been fixed.",
                     "The Music app's home page now runs faster.",
                     "The Gallery app has been optimized on the server side.",
                     "Tweets older than 3 months are now automatically deleted.",
                     "A small animation has been added to Frogger page transitions.",
-                    "A “resume where you left off” feature has been added to the home pages of Frogger, Frogram, and Frogly. Now, when you enter a post or profile and then exit, you resume from where you were scrolling.",
+                    "A 'resume where you left off' feature has been added to the home pages of Frogger, Frogram, and Frogly. Now, when you enter a post or profile and then exit, you resume from where you were scrolling.",
                     "The Guide section has been slightly reorganized.",
                     "The Recents section has been slightly reorganized.",
                     "The issue where the phone didn't load for some players after entering the server has been fixed."
@@ -245,12 +245,12 @@
             {
                 "category": "New Features",
                 "items": [
-                    "The assistant app is active again. You can also make it draw pictures by typing “draw a cat” or chat with it. (Don't expect high-quality results.)",
+                    "The assistant app is active again. You can also make it draw pictures by typing 'draw a cat' or chat with it. (Don't expect high-quality results.)",
                     "Invoices app has been redesigned.",
                     "Garage app has been redesigned.",
                     "App Store app has been redesigned.",
                     "Messages > Profile has been updated.",
-                    "Light (default), dark, and tinted (you can choose the color yourself) modes have now been added for all app icons. To edit, right-click on any app on the home screen and press the “Edit” button in the upper left corner.",
+                    "Light (default), dark, and tinted (you can choose the color yourself) modes have now been added for all app icons. To edit, right-click on any app on the home screen and press the 'Edit' button in the upper left corner.",
                     "The ability to comment on comments has been added to Frogger.",
                     "A retweet feature has been added to Frogger. You can add your own message and photo when retweeting posts.",
                     "App moving on the home screen has been improved; apps can now be placed in empty slots (they don't have to be next to each other)."
@@ -296,7 +296,7 @@
                 "items": [
                     "The Swiper (Tinder) app has been added. You have 10 swipes per day; you can purchase Swiper Gold for unlimited swipes.",
                     "A language change option has been added to Settings.",
-                    "A “About Phone” section has been added to Settings.",
+                    "A 'About Phone' section has been added to Settings.",
                     "A member limit has been added to Darkchat.",
                     "You can now change the font, color, and blend effect of the clock on the lock screen."
                 ]
@@ -353,7 +353,7 @@
                     "In the music app, new music couldn't be opened while music was playing; this has been fixed.",
                     "The issue of employees not appearing in the Company app has been fixed.",
                     "The pet image displayed on Dynamic Island has been fixed.",
-                    "The issue of not being able to see the contact and messages in some cases has been fixed..",
+                    "The issue of not being able to see the contact and messages in some cases has been fixed.",
                     "tgiann-hotwire support has been added for garage app.",
                     "The issue of messages not being sent in darkchat has been fixed.",
                     "cylex_youtubeApp server side RPC error fixed."

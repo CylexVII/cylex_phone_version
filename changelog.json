@@ -1,5 +1,67 @@
 [
      {
+        "version": "1.2",
+        "date": "2026-03-02",
+        "title": "UPDATE 1.2",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                    "A feature has been added to Frogly that allows only verified users to share posts. This way, you can use the changeappdata command to verify users and allow only those you want to share posts.",
+                    "Adjustments have been made to the phone prop.
+                    "All social media apps have been optimized, and the lag experienced on the home page and when switching between pages has been fixed.",
+                    "All messaging apps have been optimized, and the lag experienced when opening the home page and conversations page has been fixed.",
+                    "With these updates, the phone will run 70% faster overall.",
+                    "The script now opens 90% faster as both client and server.",
+                    "Gitbook docs have been detailed.",
+                    "The bank now withdraws money instantly.",
+                    "A new addSystemBill export has been added to the server side for tax systems on the invoice.",
+                    "The entire phone has been converted to SQL. When the script opens, it will automatically install and create all necessary SQL files on your server along with your old data. If you have a large amount of data, monitor the console and do not perform any actions until all migration processes are complete. After completion, restart the server."
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                    "ControlCenter's freezing issue has been fixed, minor adjustments made.",
+                    "The icon in the top right corner of the App Store was sometimes buggy, fixed.",
+                    "Search duration was not visible on the dynamic island, fixed.",
+                    "Logs for Twitter, Instagram, Frogly, Swiper, and company messages have been detailed.",
+                    "Playlist cover photos were not loading when creating playlists in the music app; this has been fixed.",
+                    "When sending money from the Messages app, the log now appears much more detailed in the bank log.",
+                    "There was no log when sending the requested amount in the Messages app; this has been fixed.",
+                    "The log for money sent from the bank has been detailed and organized.",
+                    "The character was stuck when installing the app from the App Store; this has been fixed.",
+                    "Person names were not loading in Darkchat group settings; this has been fixed.",
+                    "The character was freezing when opening the stopwatch; this has been fixed.",
+                    "We couldn't scroll as much as we wanted in Frogram Discover and Frogly Discover; this has been fixed.",
+                    "The emoji position was off in Frogly comments; this has been fixed.",
+                    "Messages were not visible in Frogly messages, fixed.",
+                    "Minor issues on the yellow pages have been fixed.",
+                    "The person/business owner who created the invoices can now delete them by right-clicking.",
+                    "Paid invoices older than 3 months are automatically deleted.",
+                    "The issue with the clock app's opening animation has been fixed.",
+                    "Posts in the Frogram profile are now sorted chronologically from top to bottom.",
+                    "Frogger retweeted posts were not visible in the profile; this has been fixed.",
+                    "The issue of Frogly comments not being readable in light mode has been fixed.
+                ]
+            },
+            {
+                "category": "Changed Files",
+                "items": [
+                    "assets_sounds",
+                    "html (remove old html file and put new)",
+                    "client folder",
+                    "server folder",
+                    "cl_config.lua",
+                    "sv_config.lua",
+                    "locales",
+                    "fxmanifest.lua",
+                    "safeevents.txt"
+                ]
+            }
+        ]
+     },
+     {
         "version": "1.11",
         "date": "2026-02-10",
         "title": "UPDATE 1.11",

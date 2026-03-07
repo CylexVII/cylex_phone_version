@@ -1,4 +1,43 @@
 [
+      {
+        "version": "1.22",
+        "date": "2026-03-07",
+        "title": "UPDATE 1.22",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                     "Yellowpage has been redesigned.",
+                     "A streaming app has been added. You can open a broadcast and chat with viewers, and viewers can send you donations in any amount they want.",
+                     "Viewers can now hear the voices of the broadcaster and the people next to the broadcaster."
+
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                         "The issue where the most used hashtags were missing on the Frogger search page has been fixed.",
+                         "The Frogram, Frogger, and Frogly notification pages have been fixed.",
+                         "The issue where posts did not display correctly on the Frogly profile has been fixed.",
+                         "When a new post was made while on the Frogger profile, it also appeared on the profile; this has been fixed.",
+                         "You can now delete notifications by holding and dragging them upwards.",
+                         "The text shift in the music search section has been fixed.",
+                         "A bug occurred when an airdrop arrived while the flashlight was on; this has been fixed.",
+                         "The issue where the character would freeze when pressing buttons like the like button in Swiper has been fixed."
+                ]
+            },
+            {
+                "category": "Changed Files",
+                "items": [
+                    "html (remove old html file and put new)",
+                    "cl_config.lua",
+                    "locales",
+                    "fxmanifest.lua",
+                    "safeevents.txt"
+                ]
+            }
+        ]
+     },
      {
         "version": "1.2",
         "date": "2026-03-02",

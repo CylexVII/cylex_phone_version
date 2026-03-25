@@ -1,5 +1,58 @@
 [
       {
+        "version": "1.25",
+        "date": "2026-03-25",
+        "title": "UPDATE 1.25",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                    "A new app called Foffy has been added; you can share your fun short videos.",
+                    "Quick account switching has been added to all social media apps. You can access this feature in Profile Settings.",
+                    "You no longer need to follow someone to view their Frogram stories; everyone can view each other’s stories.",
+                    "You can now reply to Frogram stories.",
+                    "The Frogram sign-up and login screen has been redesigned.",
+                    "The Frogram Explore section has been redesigned.",
+                    "A withdrawal and deposit log for Discord has been added to the Company app.",
+                    "App opening and closing animations have been made smoother.",
+                    "A loading screen has been added during the upload process when taking photos.",
+                    "Camera animations and controls have been updated for smoother performance.",
+                    "The angles for photo and video capture in the Camera app are now wider.",
+                    "An issue with small photos in Frogger and Frogram has been fixed."
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                    "An issue where messages from the new account were loading incorrectly when switching accounts has been fixed.",
+                    "Several server-side bugs have been fixed.",
+                    "Glitches in the emoji tab of social media apps have been fixed.",
+                    "Color issues in the Swiper app while in Light mode have been fixed.",
+                    "Searches in the Music app have been optimized. If you want to avoid issues while searching, create a playlist with the songs you listen to most often and play them from the playlist.",
+                    "The comment, like, and retweet icons in Frogger have been fixed.",
+                    "A “Wide” button has been added to the Camera app; you can now take photos at wider angles.",
+                    "The black screen issue that occurred when exiting the app while in the video tab of the Camera app has been fixed.",
+                    "An animation has been added when switching between front and back cameras in the camera app.",
+                    "The issue where the second video would become corrupted when recording two videos back-to-back in the camera app has been fixed.",
+                    "Color issues in the Swiper app in Light mode have been fixed.",
+                    "An issue with small photos in Frogger and Frogram has been fixed.",
+                    "The duration slider in Dynamic Island and the Music app has been fixed.",
+                    "An issue where icons were not displaying in the Company app has been fixed."
+                },
+            {
+                "category": "Changed Files",
+                "items": [
+                    "html (remove old html file and put new)",
+                    "cl_config.lua (added foffy config)",
+                    "sv_config.lua (added foffy config)",
+                    "locales",
+                    "fxmanifest.lua",
+                    "safeevents.txt"
+                ]
+            }
+        ]
+     },
+      {
         "version": "1.22",
         "date": "2026-03-07",
         "title": "UPDATE 1.22",

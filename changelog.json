@@ -38,7 +38,7 @@
                     "An issue with small photos in Frogger and Frogram has been fixed.",
                     "The duration slider in Dynamic Island and the Music app has been fixed.",
                     "An issue where icons were not displaying in the Company app has been fixed."
-                },
+                }
             {
                 "category": "Changed Files",
                 "items": [

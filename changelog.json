@@ -1,45 +1,5 @@
 [
      {
-        "version": "1.26",
-        "date": "2026-04-05",
-        "title": "UPDATE 1.26",
-        "changes": [
-            {
-                "category": "New Features",
-                "items": [
-                    "The phone file size has been reduced by 80%.",
-                    "3 new server-side export functions have been added. (getUserDataBySource, sendMessage, sendCoords)",
-                    "You can now increase the phone’s scale beyond the default setting in the settings. (1.25 > 1.35)",
-                    "Custom App support has been added; you can find the necessary information in the docs."
-                ]
-            },
-            {
-                "category": "Fixed",
-                "items": [
-                    "The issue with mixing story names in Frogram has been fixed.",
-                    "An issue where deleting a message while a notification was active in the Messages app caused problems has been fixed.",
-                    "An issue where some posts didn’t appear after being liked in Frogram has been fixed.",
-                    "An issue that occurred when deleting a message in Company and Swiper has been fixed.",
-                    "An issue with the Followed and Follow data in the Frogram, Frogger, and Frogly apps has been fixed.",
-                    "The issue where video audio continued playing after exiting the Foffy app has been fixed.",
-                    "The issue where the Loading Music screen appeared randomly in the Music app has been fixed.",
-                    "In FaceTime, the camera direction could be changed without answering the call; this has been fixed."
-                ]
-            },
-            {
-                "category": "Changed Files",
-                "items": [
-                    "html (remove old html file and put new)",
-                    "locales",
-                    "server/sv_cloudsync.lua",
-                    "server/sv_utils.js (new file)",
-                    "fxmanifest.lua",
-                    "safeevents.txt"
-                ]
-            }
-        ]
-     },
-     {
         "version": "1.25",
         "date": "2026-03-25",
         "title": "UPDATE 1.25",

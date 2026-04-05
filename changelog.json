@@ -7,7 +7,7 @@
             {
                 "category": "New Features",
                 "items": [
-                    "The app’s file size has been reduced by 80%."
+                    "The app’s file size has been reduced by 80%.",
                     "3 new server-side export functions have been added. (getUserDataBySource, sendMessage, sendCoords)",
                     "You can now increase the phone’s scale beyond the default setting in the settings. (1.25 > 1.35)",
                     "Custom App support has been added; you can find the necessary information in the docs."

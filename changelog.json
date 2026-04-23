@@ -32,7 +32,14 @@
                          "When there were more than 5-6 people in the Viewed section of a Story, you couldn’t scroll down; fixed.",
                          "If you exited a Story without scrolling, it wasn’t counted as viewed; fixed.",
                          "If you tried to send a message to someone whose conversation had been deleted, the message wouldn’t send; fixed.",
-                         "Now, when you tap the notifications page in social media apps, the notifications on the lock screen will be cleared."
+                         "Now, when you tap the notifications page in social media apps, the notifications on the lock screen will be cleared.",
+                         "The issue where notes appeared blank upon first opening has been fixed.",
+                         "The verification badge was missing from the Frogly profile; it has been added.",
+                         "The border around viewed stories in Frogram was not visible in Light mode; this has been fixed.",
+                         "You can now go to a profile by tapping the profile photo from a story.",
+                         "In Frogram profiles, buttons were not visible in light mode; this has been fixed.",
+                         "You can now edit your nickname in Frogram as well."
+
                 ]
             },
             {

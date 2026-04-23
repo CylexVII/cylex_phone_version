@@ -1,5 +1,54 @@
 [
      {
+        "version": "1.28",
+        "date": "2026-04-23",
+        "title": "UPDATE 1.28",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                    "Following you has been added to all social media profiles if someone is following you.",
+                    "The Frogram profile editing page has been updated."
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                         "The issue where audio wasn’t audible in the Streaming app has been fixed.",
+                         "Swiper was sending extra notifications when a match was made, and the text of one notification was incorrect; fixed.",
+                         "In the Company app, messages from the other party couldn’t be read in the light theme; fixed.",
+                         "Now, when someone joins the Streaming app, everyone can see who joined in the chat.",
+                         "The issue where notifications remained visible on the lock screen even after being dismissed has been fixed.",
+                         "Name-related issues encountered when sending messages from the contacts list and in the Messages app have been fixed.",
+                         "The issue where the back button in Frogger did not return to the previous screen has been fixed.",
+                         "In all messaging apps, incoming messages were appearing on the lock screen while in an active conversation; fixed.",
+                         "Notifications for deleted conversations were remaining on the lock screen; fixed.",
+                         "Photos of contacts were not appearing in Swiper; this has been fixed.",
+                         "Adjustments have been made for users experiencing a black screen issue in FaceTime.",
+                         "The animation in AirDrop has been fixed.",
+                         "The ability to add a location when sharing a post on Frogram has been added; if you check the Add Location option when sharing a post, others can see the location of where you shared the post.",
+                         "Some design bugs have been fixed.",
+                         "In Frogram, when viewing someone else’s profile, clicking on your own profile from the bottom right used to cause a crash; fixed.",
+                         "When there were more than 5-6 people in the Viewed section of a Story, you couldn’t scroll down; fixed.",
+                         "If you exited a Story without scrolling, it wasn’t counted as viewed; fixed.",
+                         "If you tried to send a message to someone whose conversation had been deleted, the message wouldn’t send; fixed.",
+                         "Now, when you tap the notifications page in social media apps, the notifications on the lock screen will be cleared."
+                ]
+            },
+            {
+                "category": "Changed Files",
+                "items": [
+                    "html (remove old html file and put new)",
+                    "locales",
+                    "server/sv_cloudsync.lua",
+                    "server/sv_utils.js (remove it)",
+                    "fxmanifest.lua",
+                    "safeevents.txt"
+                ]
+            }
+        ]
+     },
+     {
         "version": "1.26",
         "date": "2026-04-05",
         "title": "UPDATE 1.26",

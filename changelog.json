@@ -1,5 +1,123 @@
 [
      {
+        "version": "1.33",
+        "date": "2026-06-01",
+        "title": "UPDATE 1.33",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                    "Health app added",
+                     "With this app, you can track the steps you’ve run or walked, view the elevation you’ve climbed, calories burned, your heart rate, and more.",
+                     "You can even compete with other players on the leaderboard for step count, distance walked, and more.",
+                     "You can also view your heart rate, running time, and more via the widget.",
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                      "Widgets have been optimized."
+                ]
+            },
+            {
+                "category": "Changed Files",
+                "items": [
+                    "html (remove old html file and put new)",
+                    "locales",
+                    "fxmanifest.lua",
+                    "safeevents.txt"
+                ]
+            }
+        ],
+        "images": [
+            "https://i.imgur.com/okIQfjg.jpeg",
+             "https://i.imgur.com/0QN4dgu.jpeg",
+             "https://i.imgur.com/AiU69fl.jpeg"
+        ]
+     },
+     {
+        "version": "1.32",
+        "date": "2026-05-29",
+        "title": "UPDATE 1.32",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                    "Three new widgets have been added to the home screen (Bank, Photos, and Weather)",
+                    "New Weather app has been added.",
+                    "It automatically fetches data based on the active weather scripts you’re using; if your script supports dynamic weather updates, you can view future weather forecasts directly within the app.",
+                    "The Messages app has been completely rewritten from scratch.",
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                         "Messages app now runs much more optimally, stably, and efficiently.",
+                         "In some cases, tapping on notifications on the lock screen or incoming notifications wouldn’t open the conversation; this has been fixed.",
+                         "Issues with the profile photo not loading have been fixed.",
+                         "When calling someone not in the game from the contacts list, the automatically sent message often caused strange issues; this has been fixed.",
+                          "When you put your phone in your pocket while in a conversation or exited the app while in a conversation, notifications from that conversation weren’t coming through; this has been fixed.",
+                          "A few issues encountered in the messaging app after the new update have been fixed.",
+                          "The ToggleFocusKeepInput export, which can be used to prevent other keys from working while typing in custom apps, has been added as a client.",
+                          "Crypto in the bank no longer requires an API Key; you can use real-time crypto prices by setting CryptoRefreshTimer to 30 minutes in sv_config.lua.",
+                          "A few known bugs in crypto have been fixed and optimized."
+                ]
+            },
+            {
+                "category": "Changed Files",
+                "items": [
+                    "html (remove old html file and put new)",
+                    "locales",
+                    "fxmanifest.lua",
+                    "safeevents.txt"
+                ]
+            }
+        ],
+        "images": [
+            "https://i.imgur.com/9WAdioj.jpeg",
+            "https://i.imgur.com/iJYEJvK.jpeg"
+        ]
+     },
+     {
+        "version": "1.31",
+        "date": "2026-05-27",
+        "title": "UPDATE 1.31",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                    "Added support for origen_inventory",
+                    "Added a log for firing employees and changing permissions to the Company app",
+                    "Added an admin-only log to Frogger, Frogram, Frogly, and Yellow Page (AdminWebhook)",
+                    "You can now quickly switch between recent apps by holding down the exit button and swiping slightly upward.",
+                    "Additionally, if you tap the white button and swipe left, you can quickly switch to the previous app; if you swipe right, you can quickly switch to the app you previously exited.",
+                    "With these features, your apps will now stay open in the background, and you can resume where you left off when you return (Feel free to contact me if you encounter any issues.)"
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                         "Previously, when approaching someone with music playing, the sound would briefly become very loud for half a second; I think that’s been fixed.",
+                         "After selecting a photo in the gallery, you can now quickly switch to other photos by scrolling, using the directional keys, or dragging and dropping.",
+                         "When a photo was deleted while selected, it used to take you back to the beginning; this has been fixed.",
+                         "Performance improvements have been made.",
+                         "The `add_twitter_like` command has been fixed."
+
+                ]
+            },
+            {
+                "category": "Changed Files",
+                "items": [
+                    "html (remove old html file and put new)",
+                    "locales",
+                    "editable/sv_config.lua",
+                    "fxmanifest.lua",
+                    "safeevents.txt"
+                ]
+            }
+        ]
+     },
+     {
         "version": "1.31",
         "date": "2026-05-27",
         "title": "UPDATE 1.31",

@@ -118,45 +118,6 @@
         ]
      },
      {
-        "version": "1.31",
-        "date": "2026-05-27",
-        "title": "UPDATE 1.31",
-        "changes": [
-            {
-                "category": "New Features",
-                "items": [
-                    "Added support for origen_inventory",
-                    "Added a log for firing employees and changing permissions to the Company app",
-                    "Added an admin-only log to Frogger, Frogram, Frogly, and Yellow Page (AdminWebhook)",
-                    "You can now quickly switch between recent apps by holding down the exit button and swiping slightly upward.",
-                    "Additionally, if you tap the white button and swipe left, you can quickly switch to the previous app; if you swipe right, you can quickly switch to the app you previously exited.",
-                    "With these features, your apps will now stay open in the background, and you can resume where you left off when you return (Feel free to contact me if you encounter any issues.)"
-                ]
-            },
-            {
-                "category": "Fixed",
-                "items": [
-                         "Previously, when approaching someone with music playing, the sound would briefly become very loud for half a second; I think that’s been fixed.",
-                         "After selecting a photo in the gallery, you can now quickly switch to other photos by scrolling, using the directional keys, or dragging and dropping.",
-                         "When a photo was deleted while selected, it used to take you back to the beginning; this has been fixed.",
-                         "Performance improvements have been made.",
-                         "The `add_twitter_like` command has been fixed."
-
-                ]
-            },
-            {
-                "category": "Changed Files",
-                "items": [
-                    "html (remove old html file and put new)",
-                    "locales",
-                    "editable/sv_config.lua",
-                    "fxmanifest.lua",
-                    "safeevents.txt"
-                ]
-            }
-        ]
-     },
-     {
         "version": "1.28",
         "date": "2026-04-23",
         "title": "UPDATE 1.28",

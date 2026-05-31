@@ -7,7 +7,7 @@
             {
                 "category": "New Features",
                 "items": [
-                    "Health app added",
+                     "Health app added",
                      "With this app, you can track the steps you’ve run or walked, view the elevation you’ve climbed, calories burned, your heart rate, and more.",
                      "You can even compete with other players on the leaderboard for step count, distance walked, and more.",
                      "You can also view your heart rate, running time, and more via the widget."
@@ -16,21 +16,21 @@
             {
                 "category": "Fixed",
                 "items": [
-                      "Widgets have been optimized."
+                     "Widgets have been optimized."
                 ]
             },
             {
                 "category": "Changed Files",
                 "items": [
-                    "html (remove old html file and put new)",
-                    "locales",
-                    "fxmanifest.lua",
-                    "safeevents.txt"
+                     "html (remove old html file and put new)",
+                     "locales",
+                     "fxmanifest.lua",
+                     "safeevents.txt"
                 ]
             }
         ],
         "images": [
-            "https://i.imgur.com/okIQfjg.jpeg",
+             "https://i.imgur.com/okIQfjg.jpeg",
              "https://i.imgur.com/0QN4dgu.jpeg",
              "https://i.imgur.com/AiU69fl.jpeg"
         ]
@@ -52,15 +52,15 @@
             {
                 "category": "Fixed",
                 "items": [
-                         "Messages app now runs much more optimally, stably, and efficiently.",
-                         "In some cases, tapping on notifications on the lock screen or incoming notifications wouldn’t open the conversation; this has been fixed.",
-                         "Issues with the profile photo not loading have been fixed.",
-                         "When calling someone not in the game from the contacts list, the automatically sent message often caused strange issues; this has been fixed.",
-                          "When you put your phone in your pocket while in a conversation or exited the app while in a conversation, notifications from that conversation weren’t coming through; this has been fixed.",
-                          "A few issues encountered in the messaging app after the new update have been fixed.",
-                          "The ToggleFocusKeepInput export, which can be used to prevent other keys from working while typing in custom apps, has been added as a client.",
-                          "Crypto in the bank no longer requires an API Key; you can use real-time crypto prices by setting CryptoRefreshTimer to 30 minutes in sv_config.lua.",
-                          "A few known bugs in crypto have been fixed and optimized."
+                    "Messages app now runs much more optimally, stably, and efficiently.",
+                    "In some cases, tapping on notifications on the lock screen or incoming notifications wouldn’t open the conversation; this has been fixed.",
+                    "Issues with the profile photo not loading have been fixed.",
+                    "When calling someone not in the game from the contacts list, the automatically sent message often caused strange issues; this has been fixed.",
+                    "When you put your phone in your pocket while in a conversation or exited the app while in a conversation, notifications from that conversation weren’t coming through; this has been fixed.",
+                    "A few issues encountered in the messaging app after the new update have been fixed.",
+                    "The ToggleFocusKeepInput export, which can be used to prevent other keys from working while typing in custom apps, has been added as a client.",
+                    "Crypto in the bank no longer requires an API Key; you can use real-time crypto prices by setting CryptoRefreshTimer to 30 minutes in sv_config.lua.",
+                    "A few known bugs in crypto have been fixed and optimized."
                 ]
             },
             {

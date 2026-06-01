@@ -24,6 +24,7 @@
                 "items": [
                      "html (remove old html file and put new)",
                      "locales",
+                     "editable/cl_config.lua",
                      "fxmanifest.lua",
                      "safeevents.txt"
                 ]

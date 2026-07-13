@@ -1,4 +1,54 @@
 [
+          {
+        "version": "1.35",
+        "date": "2026-07-13",
+        "title": "UPDATE 1.35",
+        "changes": [
+            {
+                "category": "New Features",
+                "items": [
+                     "The MeTube app now runs far more stably. (Feedback is welcome)",
+                     "The phone's volume up / down buttons are now fully functional. (In the MeTube app you can use them to adjust both the sound others hear and the sound you hear; this will be extended to other apps as well)",
+                     "Support for the jg-advancedgarages script has been added for the ESX framework.",
+                     "The Weather app has been adapted to renewed-weathersync.",
+                     "When a vehicle is requested with the valet from the Garage app, the list is now updated instantly.",
+                     "The group page in the Messages app has been redesigned.",
+                     "The group page in the Darkchat app has been redesigned; you can now copy the group code with a single click.",
+                     "An opening animation has been added to the home screen.",
+                     "Dynamic Island animations are now smoother."
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                     "Vehicle names were not displayed correctly in the Garage app on the ESX framework; this has been fixed.",
+                     "The Music section in the Control Center was not working; it is now functional.",
+                     "The game apps and the MeTube app were breaking when you exited and re-entered them after rotating the phone to landscape; this has been fixed.",
+                     "Camera shaking while driving has been fixed.",
+                     "Animations are no longer cancelled when the camera is opened while an animation is playing.",
+                     "The camera angle was wrong during animations such as sitting; this has been fixed.",
+                     "The issue where uncensored content was visible on Frogly profiles without purchasing has been fixed.",
+                     "The scroll animation was not working while scrolling in Foffy Explore; this has been fixed.",
+                     "Several design bugs in the Casino app have been fixed.",
+                     "Widgets were breaking when entering / exiting the Camera app; this has been fixed.",
+                     "In some cases the app opening animation was not playing; this has been fixed.",
+                     "The Health widget was not working in some cases; this has been fixed."
+                ]
+            },
+            {
+                "category": "Changed Files",
+                "items": [
+                    "cylex_youtubeApp (remove old cylex_youtubeApp and put new)",
+                    "html (remove old html file and put new)",
+                    "client",
+                    "editable",
+                    "locales",
+                    "fxmanifest.lua",
+                    "safeevents.txt"
+                ]
+            }
+        ]
+     },
      {
         "version": "1.33",
         "date": "2026-06-01",

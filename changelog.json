@@ -1,5 +1,74 @@
 [
-          {
+
+   {
+        "version": "1.37",
+        "date": "2026-09-04",
+        "title": "UPDATE 1.37",
+        "changes": [
+            {
+                "category": "Messages",
+                "items": [
+                     "The app design has been completely reworked.",
+                     "You can now select multiple conversations at once and delete them.",
+                     "Using the filter in the top right, you can list read or unread messages.",
+                     "You can now quote messages; right-click any message to quote it.",
+                     "You can now react to messages; right-click any message to leave a reaction.",
+                     "A \"typing\" indicator has been added, so the other party can see when you are writing a message.",
+                     "Read receipts have been added; once you read a message, the other party is notified that it has been read.",
+                     "To prevent message spam, a queue system (like Discord's message system) has been added for messages sent back to back.",
+                     "General cache issues in the Messages app have been fixed."
+                ]
+            },
+            {
+                "category": "New Features",
+                "items": [
+                     "You can now connect the Music app to vehicles and props — the music plays from that vehicle's / prop's speakers and everyone around it hears it.",
+                     "30 new props you can connect to have been added to the Music app (DJ booths, speakers, and more).",
+                     "You can now play your playlists in shuffle mode in the Music app.",
+                     "Broken / unplayable songs are now detected automatically: you get a warning and the song is skipped.",
+                     "The Garage app's valet can now easily be disabled from the config.",
+                     "The valet can now be configured to spawn the vehicle right in front of you instantly.",
+                     "When creating a Darkchat you can now choose the # code yourself (only one chat per code; if you leave it empty a random code is generated as before).",
+                     "Dedicated Discord logs have been added to the Streaming app for going live / ending a stream, donations and chat messages (sv_config.lua).",
+                     "When you change your password on a social media app, every session logged into that account is now signed out automatically.",
+                     "The GIF backend has been moved to Klipy."
+                ]
+            },
+            {
+                "category": "Fixed",
+                "items": [
+                     "In Darkchat, changing your name did not update even after leaving and re-entering the app; this has been fixed.",
+                     "In some cases the member count and nicknames were not visible when tapping a Darkchat profile; this has been fixed.",
+                     "In some cases the names of Darkchat members were not visible at all; this has been fixed.",
+                     "Several fixes have been added for players who could not hear music in the Music app (feedback is welcome).",
+                     "For some players the Music app returned no search results because of DNS issues; this has been fixed (feedback is welcome).",
+                     "In the Garage app, the vehicle's last parked garage could not be marked when using tgiann-realparking and jg-advancedgarages; this has been fixed.",
+                     "Dynamic Island performance has been improved.",
+                     "When a call was not answered, the automatic \"I called you but couldn't reach you\" message was not sent to the other party; this has been fixed.",
+                     "The calculation error in Recent Calls has been fixed.",
+                     "The clock sometimes displayed nonsensical values such as 24:50; this has been fixed.",
+                     "In some cases on Frogly, the money did not arrive if the person whose post you purchased was offline; this has been fixed.",
+                     "Several issues that occurred while sending money in Bills and Messages have been fixed.",
+                     "The Control Center opening and UI animations have been reworked.",
+                     "Favorites were not working for GIFs; this has been fixed."
+                ]
+            },
+            {
+                "category": "Changed Files",
+                "items": [
+                    "html (remove old html file and put new)",
+                    "client",
+                    "server",
+                    "core",
+                    "editable",
+                    "locales",
+                    "fxmanifest.lua",
+                    "safeevents.txt"
+                ]
+            }
+        ]
+     },
+     {
         "version": "1.35",
         "date": "2026-07-13",
         "title": "UPDATE 1.35",
